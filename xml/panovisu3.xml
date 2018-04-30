@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+     Visite générée par l'éditeur panoVisu 
+
+             Création L.LANG      le monde à 360°  : http://lemondea360.fr
+
+             fichier image : /home/adou/Images/pano/projet omarks Office/R0010101.jpg
+
+-->
+
+
+<scene>
+   <pano 
+      image="panos/panovisu3"
+      afftitre="non"
+      titrePosition="center"
+      titreDecalage="10px"
+      titrePolice="Verdana"
+      titreTaillePolice="12px"
+      titreTaillePolice2="9px"
+      titreCalque="1"
+      titreTaille="100%"
+      titreFond="rgba(70,77,77,0.8)"
+      titreCouleur="#ffffff"
+      type="sphere"
+      multiReso="oui"
+      nombreNiveaux="4.0"
+      zeroNord="-180.0"
+      regardX="-180.0"
+      regardY="0"
+      minFOV="48"
+      maxFOV="280"
+      champVisuel="75"
+      autorotation="non"
+      vitesseAR="30"
+      autotour="non"
+      atBouton="non"
+      atBoutonTaille="32.0"
+      atBoutonPositionX="right"
+      atBoutonPositionY="top"
+      atBoutonOffsetX="10.0"
+      atBoutonOffsetY="10.0"
+      atCalque="1"
+      typeAT="tours"
+      limiteAT="1"
+      demarrageAT="0"
+      affinfo="oui"
+   />
+<!--  Barre de Navigation Personnalisée -->
+
+    <telecommande
+        fs="oui" 
+        souris="oui" 
+        rotation="oui" 
+        info="oui"
+        aide="oui"
+        positionX="right"
+        positionY="bottom" 
+        taille="100.0"
+        tailleBouton="40.0"
+        dX="0.0" 
+        dY="0.0"
+        barrePCalque="1"
+        lien1=""
+        lien2=""
+        visible="oui">
+        <zoneNavPerso id="telUp" alt="" title="" shape="poly" coords="184.0,178.0,155.0,148.0,172.0,134.0,192.0,126.0,206.0,124.0,226.0,123.0,243.0,128.0,260.0,136.0,272.0,143.0,281.0,148.0,251.0,179.0,241.0,173.0,223.0,166.0,208.0,167.0,195.0,171.0" />
+        <zoneNavPerso id="telRight" alt="" title="" shape="poly" coords="257.0,183.23333740234375,287.0,155.23333740234375,302.0,176.23333740234375,309.0,208.23333740234375,307.0,241.23333740234375,296.0,267.23333740234375,287.0,281.23333740234375,257.0,250.23333740234375,266.0,234.23333740234375,271.0,215.23333740234375,266.0,197.23333740234375" />
+        <zoneNavPerso id="telDown" alt="" title="" shape="poly" coords="183,257.0833282470703,194,264.0833282470703,210,268.0833282470703,229,267.0833282470703,241,263.0833282470703,251,257.0833282470703,279,287.0833282470703,257,302.0833282470703,238,309.0833282470703,220,311.0833282470703,203,311.0833282470703,185,305.0833282470703,167,297.0833282470703,154,287.0833282470703" />
+        <zoneNavPerso id="telLeft" alt="" title="" shape="poly" coords="177,251,148,281,134,262,124,231,125,201,134,176,145,159,148,154,177,184,169,197,164,214,169,237" />
+        <zoneNavPerso id="telZoomPlus" alt="" title="" shape="poly" coords="175,214,260,214,252,194,242,183,230,177,217,175,200,178,188,186,181,197" />
+        <zoneNavPerso id="telZoomMoins" alt="" title="" shape="poly" coords="175,220.48333740234375,260,220.48333740234375,255,238.48333740234375,243,252.48333740234375,228,258.48333740234375,210,260.48333740234375,194,254.48333740234375,178,237.48333740234375" />
+        <zoneNavPerso id="area-1" alt="" title="" shape="poly" coords="240.0,2.0,235.0,48.0,263.0,54.0,286.0,63.0,306.0,20.0,280.0,11.0,260.0,5.0" />
+        <zoneNavPerso id="area-2" alt="" title="" shape="poly" coords="232,49,236,3,197,4,161,10,174,55,203,50" />
+        <zoneNavPerso id="area-3" alt="" title="" shape="poly" coords="174,56,161,10,125,23,94,42,120,79,146,63" />
+        <zoneNavPerso id="area-4" alt="" title="" shape="poly" coords="119,80,93,41,63,68,42,95,80,121,96,99" />
+        <zoneNavPerso id="area-5" alt="" title="" shape="poly" coords="79,121,41,96,24,124,10,160,54,173,63,147" />
+        <zoneNavPerso id="area-6" alt="" title="" shape="poly" coords="10,161,55,174,49,203,49,232,3,237,2,202" />
+        <zoneNavPerso id="area-7" alt="" title="" shape="poly" coords="24.0,307.0,64.0,286.0,58.0,272.0,53.0,255.0,49.0,234.0,3.0,239.0,11.0,275.0" />
+    </telecommande>
+<!--  Boussole -->
+    <boussole 
+        affiche="oui"
+        image="rose5.png"
+        taille="100.0"
+        positionY="top"
+        positionX="right"
+        opacite="0.8"
+        dX="20.0"
+        dY="20.0"
+        boussoleCalque="1"
+        aiguille="oui"
+    />
+<!--  Fenêtre info personnalisée -->
+    <fenetreInfo 
+        affiche="oui"
+        image="images/"
+        taille="100.0"
+        opacite="0.8"
+        dX="0"
+        dY="0"
+        URL=""
+        texteURL=""
+        couleurURL="#FFFF00"
+        TailleURL="10"
+        URLdX="0"
+        URLdY="0"
+    />
+<!--  Bouton Suivant Precedent -->
+    <suivantPrecedent
+        suivPrecCalque="1"
+        suivant="xml/panovisu0.xml"            
+        precedent="xml/panovisu2.xml"            
+    />    
+<!--  Bouton de Masquage -->
+    <marcheArret 
+        affiche="non"
+        image="MA.png"
+        taille="30.0"
+        positionY="top"
+        positionX="right"
+        opacite="0.8"
+        dX="20.0"
+        dY="20.0"
+        navigation="oui"
+        boussole="oui"
+        titre="oui"
+        plan="oui"
+        reseaux="oui"
+        masquageCalque="1"
+        vignettes="oui"
+        combo="oui"
+        suivPrec="oui"
+        hotspots="oui"
+    />
+<!--  Réseaux Sociaux -->
+    <reseauxSociaux 
+        affiche="oui"
+        taille="30.0"
+        positionY="top"
+        positionX="left"
+        opacite="0.8"
+        dX="20.0"
+        dY="20.0"
+        partageCalque="1"
+        twitter="non"
+        google="non"
+        facebook="oui"
+        email="non"
+    />
+    <!--Définition des hotspots-->  
+   <hotspots>
+      <point 
+           type="panoramique"
+           long="-236.3551401869159"
+           lat="-25.233644859813083"
+           tailleHS="25px"
+           image="panovisu/images/hotspots/hotspot.png"
+           xml="xml/panovisu2.xml"
+           regardX="-255.8"
+           regardY="-10.3"
+           champVisuel="50.0"
+           info=""
+           anime="false"
+      />
+   </hotspots>
+
+<!-- Définition des images de fond -->
+
+    <imageFond
+        fichier="images/Logo_Omarks.png"
+        posX="center" 
+        posY="middle" 
+        offsetX="0.0" 
+        offsetY="0.0" 
+        tailleX="177" 
+        tailleY="184" 
+        opacite="0.21269841269841272" 
+        cible="interne" 
+        calque="1"
+        masquable="oui" 
+        url="" 
+        infobulle="" 
+    />
+</scene>
