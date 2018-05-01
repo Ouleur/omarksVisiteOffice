@@ -8,15 +8,15 @@
 [atDemarrage=>0]
 [atType=>tours]
 [OrdrePanos=>0,1,2,3]
-[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010097.jpg;nb:1;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:-0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:150.0;minfov:48.0;maxfov:280.0;zeroNord:-0.0;affichePlan:false;numeroPlan:-1]
+[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010097.jpg;nb:1;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:-0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:150.0;minfov:96.0;maxfov:560.0;zeroNord:-0.0;affichePlan:false;numeroPlan:-1]
    [hotspot==>longitude:3.3644859813084054;latitude:-18.925233644859816;image:;xml:R0010099.xml;numXML:1;info:;anime:false;regardX:-112.89999999999998;regardY:-5.1;champVisuel:100.0]
-[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010099.jpg;nb:2;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:165.0;minfov:48.0;maxfov:280.0;zeroNord:0.0;affichePlan:false;numeroPlan:-1]
+[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010099.jpg;nb:2;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:165.0;minfov:96.0;maxfov:560.0;zeroNord:0.0;affichePlan:false;numeroPlan:-1]
    [hotspot==>longitude:-86.21495327102804;latitude:-28.598130841121502;image:;xml:R0010097.xml;numXML:0;info:;anime:false;regardX:-16.400000000000006;regardY:-11.9;champVisuel:140.0]
    [hotspot==>longitude:79.90654205607478;latitude:-35.74766355140187;image:;xml:R0010100.xml;numXML:2;info:;anime:false;regardX:-36.900000000000006;regardY:-15.0;champVisuel:140.0]
-[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010100.jpg;nb:2;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:150.0;minfov:48.0;maxfov:280.0;zeroNord:0.0;affichePlan:false;numeroPlan:-1]
+[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010100.jpg;nb:2;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:150.0;minfov:96.0;maxfov:560.0;zeroNord:0.0;affichePlan:false;numeroPlan:-1]
    [hotspot==>longitude:-74.4392523364486;latitude:-33.64485981308411;image:;xml:R0010099.xml;numXML:1;info:;anime:false;regardX:-262.8;regardY:-4.4;champVisuel:140.0]
    [hotspot==>longitude:76.54205607476638;latitude:-26.495327102803742;image:;xml:R0010101.xml;numXML:3;info:;anime:false;regardX:-47.69999999999999;regardY:-16.5;champVisuel:140.0]
-[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010101.jpg;nb:1;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:-0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:150.0;minfov:48.0;maxfov:280.0;zeroNord:-0.0;affichePlan:false;numeroPlan:-1]
+[Panoramique=>fichier:/home/adou/Images/pano/projet&spomarks&spOffice/R0010101.jpg;nb:1;nbImg:0;nbHTML:0;nbDiapo:0;titre:;type:sphere;afficheInfo:true;afficheTitre:true;regardX:-0.0;regardY:0.0;minLat:-1000.0;maxLat:1000.0;bMinLat:false;bMaxLat:false;fov:150.0;minfov:96.0;maxfov:560.0;zeroNord:-0.0;affichePlan:false;numeroPlan:-1]
    [hotspot==>longitude:-56.35514018691589;latitude:-25.233644859813083;image:;xml:R0010100.xml;numXML:2;info:;anime:false;regardX:-255.8;regardY:-10.3;champVisuel:100.0]
 [Interface=>
 styleBarre=retina
@@ -34,7 +34,7 @@ styleHotspotHTML=html1.png
 position=bottom:center
 dX=0
 dY=10
-visible=non
+visible=oui
 suivantPrecedent=false
 deplacement=oui
 zoom=oui
@@ -44,7 +44,7 @@ FS=oui
 souris=oui
 espacementBoutons=4.0
 bCouleurOrigineBarrePersonnalisee=true
-nombreZonesBarrePersonnalisee=13
+nombreZonesBarrePersonnalisee=11
 offsetXBarrePersonnalisee=0.0
 offsetYBarrePersonnalisee=0.0
 tailleBarrePersonnalisee=100.0
@@ -57,8 +57,8 @@ strAideBarrePersonnalisee=oui
 strRotationBarrePersonnalisee=oui
 strPleinEcranBarrePersonnalisee=oui
 strSourisBarrePersonnalisee=oui
-strVisibiliteBarrePersonnalisee=oui
-strLienImageBarrePersonnalisee=/home/adou/360/PanoVisu/editeurPanovisu/theme/telecommandes/telecommande3-droite.png
+strVisibiliteBarrePersonnalisee=non
+strLienImageBarrePersonnalisee=/home/adou/360/PanoVisu/editeurPanovisu/theme/telecommandes/telecommande6.png
 strLien1BarrePersonnalisee=
 strLien2BarrePersonnalisee=
 couleurBarrePersonnalisee=0x464d4dac
@@ -119,10 +119,10 @@ dXBoussole=20
 dYBoussole=20
 opaciteBoussole=0.8
 aiguilleMobile=true
-afficheMasque=false
-imageMasque=MA.png
+afficheMasque=true
+imageMasque=MA11.png
 tailleMasque=30.0
-positionMasque=top:right
+positionMasque=bottom:left
 dXMasque=20
 dYMasque=20
 opaciteMasque=0.8
@@ -184,7 +184,7 @@ positionCarte=left
 opaciteCarte=0.8
 largeurCarte=400
 hauteurCarte=300
-zoomCarte=15
+zoomCarte=16
 couleurFondCarte=4e8080
 couleurTexteCarte=ffffff
 afficheRadarCarte=false
@@ -215,5 +215,5 @@ calqueBoussole=1
 calqueVignettes=1
 calqueMenuPanoramiques=1
 nombreImagesFond=1
-<image=/media/adou/Ouleur data/Téléchargements/Logo_Omarks.png#posX=center#posY=middle#offsetX=0.0#offsetY=0.0#tailleX=177#tailleY=184#opacite=0.21269841269841272#masquable=true#type=aucun#numDiapo=-1#cible=interne#url=#infobulle=#calque=1#>
+<image=/media/adou/Ouleur data/Téléchargements/Logo_Omarks.png#posX=center#posY=middle#offsetX=0.0#offsetY=0.0#tailleX=177#tailleY=184#opacite=0.21269841269841272#masquable=false#type=aucun#numDiapo=-1#cible=interne#url=#infobulle=#calque=2#>
 ]
